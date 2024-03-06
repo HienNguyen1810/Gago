@@ -809,8 +809,18 @@ html {
   .w-hidden-main {
     display: none !important;
   }
-  
+  a{
+    color: black! important;
+    text-decoration: none! important;
+  }
   @media screen and (max-width: 991px) {
+    #logo {
+     width: 45px!important;
+     height: 65px!important;
+     background-repeat: no-repeat;
+     background-size: auto;
+    }
+
     .w-container {
       max-width: 728px;
     }
@@ -879,6 +889,9 @@ html {
   }
   
   @media screen and (max-width: 767px) {
+    .titre-temoin.black{
+      font:  20px; 
+    }
     .w-hidden-main, .w-hidden-medium {
       display: inherit !important;
     }
@@ -945,6 +958,7 @@ html {
     .w-col-small-12 {
       width: 100%;
     }
+   
   }
   
   @media screen and (max-width: 479px) {
@@ -2147,7 +2161,7 @@ html {
   }
 
   .side.droite {
-    
+   transition: 2.55s ease! important;
     flex-direction: row;
     order: 1;
     justify-content: flex-start;
@@ -2337,7 +2351,7 @@ html {
   
   .titre-temoin.black {
     color: var(--sombre);
-    font-size: 28px;
+    font-size: 30px;
     font-family: Inter;
     font-weight: 700
     ;
@@ -2345,10 +2359,10 @@ html {
 
   
   .texte-temoin {
-    width: 40vw;
+    width: 41vw;
     color: var(--sombre);
     margin-bottom: 2%;
-    font-family: Montserrat, sans-serif;
+    font-family: inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 130%;
@@ -2737,6 +2751,12 @@ html {
     width: 22vw;
     color: #141414;
   }
+  #logo {
+    width: 75px;
+    height: 95px;
+    background-repeat: no-repeat;
+    background-size: auto;
+   }
   .logo-member {
 margin-bottom: 22px;
   }
@@ -2876,6 +2896,12 @@ margin-bottom: 22px;
     display: none;
     position: static;
     overflow: auto;
+  }
+  .font{
+    text-align: center;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 500;
   }
   
   @media screen and (max-width: 991px) {
@@ -3509,16 +3535,18 @@ margin-bottom: 22px;
   .btn-view-more{
     display: inline-block;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     width: 119px;
-    height: 37px;
+    height: 31px;
     transform: translateX(-40px);
     border-radius: 40px;
     text-align: center;
     background-color: transparent;
     border: 1px solid #161616;
   }
-
+  .header-link,.contact-message,.btn {
+   transition: 2.55s ease! important;
+  }
   .contact-message{
     position: fixed;
     width: 64px;
@@ -3529,7 +3557,7 @@ margin-bottom: 22px;
     border-radius: 100%;
     right: 40px;
     bottom: 32px;
-    background-color: #79301B;
+    /* background-color: #79301B; */
     ;
   }
   .contact-social-list{
