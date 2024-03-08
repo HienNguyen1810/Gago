@@ -113,8 +113,7 @@
             <div class="row align-items-start pb-1">
               <div class="col-2">
                 <div class="rounded ">
-                  <div style="width:33px;
-                  height: 33px;">
+                  <div class="member-content">
                     <img class="member" src="./assets/img/Frame 4.png" style="
                     
                     background-repeat: no-repeat;
@@ -126,8 +125,7 @@
 
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 5.png" style="
                     
                   background-repeat: no-repeat;
@@ -137,8 +135,7 @@
 
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
 
                   <img class="member" src="./assets/img/Frame 6.png" style="
                     
@@ -147,8 +144,7 @@
                 </div>
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 7.png" style="
                     
                   background-repeat: no-repeat;
@@ -158,8 +154,7 @@
 
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 8.png" style="
                     
                   background-repeat: no-repeat;
@@ -170,8 +165,7 @@
             </div>
             <div class="row align-items-start">
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 9.png" style="
                     
                     background-repeat: no-repeat;
@@ -180,8 +174,7 @@
 
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 10.png" style="
                     
                   background-repeat: no-repeat;
@@ -190,8 +183,7 @@
 
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 11.png" style="
                     
                   background-repeat: no-repeat;
@@ -200,8 +192,7 @@
 
               </div>
               <div class="col-2 ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 12.png" style="
                     
                   background-repeat: no-repeat;
@@ -210,8 +201,7 @@
 
               </div>
               <div class="col-2  ">
-                <div style="width:33px;
-                height: 33px;">
+                <div class="member-content">
                   <img class="member" src="./assets/img/Frame 13.png" style="
                     
                   background-repeat: no-repeat;
@@ -836,14 +826,18 @@
               <div class="col">
                 <div class="dropdown">
                   <a class="btn
-        dropdown-toggle btn-sm rounded-pill m-auto header-link white download-proposal" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+        dropdown-toggle btn-sm rounded-pill m-auto header-link white download-proposal" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                     Download Proposal
                   </a>
 
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item download-proposal-vietnamese" href="https://docs.google.com/presentation/d/e/2PACX-1vRuvcis7uEg4gpG_llsVir2Koo-7DufYtOsVLfYlHXOWAX3RwG3aKE6Vqxun_O3uw/pub?start=false&loop=false&delayms=3000">Vietnamese version</a></li>
-                    <li><a class="dropdown-item download-proposal-english" href="https://docs.google.com/presentation/d/e/2PACX-1vQR6p7y1MC2m-rZGfbb_m1ejnyKmpET-WFStW4r9DSFxOmlwBtDEMrGHNS1-bLXFA/pub?start=false&loop=false&delayms=3000">English version</a></li>
+                    <li><a class="dropdown-item download-proposal-vietnamese"
+                        href="https://docs.google.com/presentation/d/e/2PACX-1vRuvcis7uEg4gpG_llsVir2Koo-7DufYtOsVLfYlHXOWAX3RwG3aKE6Vqxun_O3uw/pub?start=false&loop=false&delayms=3000">Vietnamese
+                        version</a></li>
+                    <li><a class="dropdown-item download-proposal-english"
+                        href="https://docs.google.com/presentation/d/e/2PACX-1vQR6p7y1MC2m-rZGfbb_m1ejnyKmpET-WFStW4r9DSFxOmlwBtDEMrGHNS1-bLXFA/pub?start=false&loop=false&delayms=3000">English
+                        version</a></li>
                   </ul>
                 </div>
               </div>
@@ -969,9 +963,9 @@
                                           newCenterItemId == 17 ? '#5ba5f0  !important' :
                                             newCenterItemId == 18 ? '#f9a22d  !important' : 'red !important');
                     });
-                    var sideDroiteElements = document.querySelectorAll('.header-link');
+                    var headerLinkElements = document.querySelectorAll('.header-link');
 
-                    sideDroiteElements.forEach(function (element) {
+                    headerLinkElements.forEach(function (element) {
                       element.style.cssText = 'background: ' +
                         (newCenterItemId == 1 ? 'rgb(0, 55, 128) !important' :
                           newCenterItemId == 2 ? 'rgb(107, 14, 5 )!important' :
@@ -985,7 +979,27 @@
                                           newCenterItemId == 17 ? 'rgb(80, 154, 230)  !important' :
                                             newCenterItemId == 18 ? 'rgb(230, 149, 41)  !important' : 'red !important');
                     });
+                    if (window.innerWidth <= 479 ) {
+  // Chỉ thực hiện khi chiều rộng của màn hình là 479px hoặc ít hơn
+  // Thêm mã JavaScript của bạn ở đây
+  var wrapperViewMoreElements = document.querySelectorAll('.bloc-text');
 
+                    wrapperViewMoreElements.forEach(function (element) {
+                      element.style.cssText = 'background: ' +
+                        (newCenterItemId == 1 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5)) !important' :
+                          newCenterItemId == 2 ? 'linear-gradient(to Top, rgb(123, 11, 0,1),rgb(255, 232, 230, 0.5))!important' :
+                            newCenterItemId == 3 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5))!important' : newCenterItemId == 4 ? 'linear-gradient(to Top, rgb(209, 84, 79,1),rgb(250, 234, 234, 0.5))!important' :
+                              newCenterItemId == 5 ? 'linear-gradient(to Top, rgb(37, 62, 159,1),rgb(193, 203, 240, 0.5))!important' :
+                                newCenterItemId == 6 ? 'linear-gradient(to Top, rgb(50, 68, 0,1),rgb(248, 255, 230, 0.5))!important' : newCenterItemId == 7 ? 'linear-gradient(to Top, rgb(254, 135, 124,1),rgb(254, 209, 205, 0.5)) !important' : newCenterItemId == 8 ? 'linear-gradient(to Top, rgb(147, 62, 37,1),rgb(245, 221, 214, 0.5)) !important' :
+                                  newCenterItemId == 9 ? 'linear-gradient(to Top, rgb(132, 12, 0,1),rgb(255, 208, 204, 0.5))  !important' :
+                                    newCenterItemId == 10 ? 'linear-gradient(to Top, rgb(9, 93, 156,1),rgb(207, 233, 252, 0.5))  !important' : newCenterItemId == 11 ? 'linear-gradient(to Top, rgb(120, 162, 85,1),rgb(229, 237, 222, 0.5)) !important' : newCenterItemId == 12 ? 'linear-gradient(to Top, rgb(194, 161, 106,1),rgb(240, 232, 219, 0.5))!important' :
+                                      newCenterItemId == 13 ? 'linear-gradient(to Top, rgb(196, 26, 33,1),rgb(252, 232, 233, 0.5))  !important' :
+                                        newCenterItemId == 14 ? 'linear-gradient(to Top, rgb(66, 163, 203,1),rgb(215, 235, 244, 0.5)) !important' : newCenterItemId == 15 ? 'linear-gradient(to Top, rgb(63, 126, 112,1),rgb(221, 238, 234, 0.5)) !important' : newCenterItemId == 16 ? 'linear-gradient(to Top, rgb(205, 68, 67,1),rgb(244, 215, 215, 0.5)) !important' :
+                                          newCenterItemId == 17 ? 'linear-gradient(to Top, rgb(91, 165, 240,1),rgb(208, 230, 251, 0.5)) !important' :
+                                            newCenterItemId == 18 ? 'linear-gradient(to Top, rgb(249, 162, 45,1),rgb(252, 221, 182, 0.5))  !important' : 'red !important');
+                    });
+}
+                    
                     var sideDroiteElements = document.querySelectorAll('.contact-message');
 
                     sideDroiteElements.forEach(function (element) {
@@ -1325,7 +1339,7 @@
           pippy: { pippyContent: "To serve children yummy chicken fried", buttonView: "View more" },
           bellHome: { bellHomeContent: "Bell Home is a brand from Germany with the mission of caring for children's health", buttonView: "View more" },
           ghCreation: { ghCreationContent: "A doctor created a unique formula that helps people to get taller", buttonView: "View more" },
-          downloadProposal:{downloadProposalText: "Download Proposal",vnProposalText: "Vietnamese version",engProposalText: "English version"},
+          downloadProposal: { downloadProposalText: "Download Proposal", vnProposalText: "Vietnamese version", engProposalText: "English version" },
         },
         vietnamese: {
           tero: { teroContent: "Đưa các công nghệ hiện đại từ tương lai vào tư vấn, hỗ trợ và phục vụ khách hàng toàn cầu bằng các giải pháp CNTT độc đáo", buttonView: "Xem thêm" },
@@ -1346,7 +1360,7 @@
           pippy: { pippyContent: "Để phục vụ trẻ em gà rán ngon", buttonView: "Xem thêm" },
           bellHome: { bellHomeContent: "Bell Home là thương hiệu đến từ Đức với sứ mệnh chăm sóc sức khỏe cho trẻ em", buttonView: "Xem thêm" },
           ghCreation: { ghCreationContent: "Một bác sĩ đã tạo ra công thức độc đáo giúp con người cao hơn", buttonView: "Xem thêm" },
-          downloadProposal:{downloadProposalText: "Tải xuống portfolio",vnProposalText: "Phiên bản tiếng việt",engProposalText: "Phiên bản tiếng anh"}
+          downloadProposal: { downloadProposalText: "Tải xuống portfolio", vnProposalText: "Phiên bản tiếng việt", engProposalText: "Phiên bản tiếng anh" }
         },
         chinese: {
           tero: { teroContent: "引入未來的現代技術，透過獨特的 IT 解決方案為全球客戶提供建議、支援和服務", buttonView: "看更多" },
@@ -1367,7 +1381,7 @@
           pippy: { pippyContent: "美女與狼人的冒險經歷", buttonView: "看更多" },
           bellHome: { bellHomeContent: "為顧客提供美味牛排的廚師", buttonView: "看更多" },
           ghCreation: { ghCreationContent: "為孩子們提供美味的炸雞", buttonView: "看更多" },
-          downloadProposal:{downloadProposalText: "下載提案",vnProposalText: "越南語版",engProposalText: "英文版"}
+          downloadProposal: { downloadProposalText: "下載提案", vnProposalText: "越南語版", engProposalText: "英文版" }
         }
       };
 
@@ -1395,12 +1409,12 @@
       var engProposalElement = document.querySelector(".download-proposal-vietnamese");
       var vnProposalElement = document.querySelector(".download-proposal-english");
 
-       // Hàm thay đổi ngôn ngữ 
+      // Hàm thay đổi ngôn ngữ 
       function updateContent(language) {
 
         var languageData = languageOptions[language];
-         // Thay đổi ngôn ngữ cho từng nút view more
-         viewMoreElements.forEach(function (element) {
+        // Thay đổi ngôn ngữ cho từng nút view more
+        viewMoreElements.forEach(function (element) {
           console.log(element, "element")
           element.textContent = languageData.ghCreation.buttonView
         });
@@ -1425,7 +1439,7 @@
         downloadProposalElement.textContent = languageData.downloadProposal.downloadProposalText
         vnProposalElement.textContent = languageData.downloadProposal.vnProposalText
         engProposalElement.textContent = languageData.downloadProposal.engProposalText
-        
+
 
 
       }
