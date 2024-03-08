@@ -3233,7 +3233,7 @@ margin-bottom: 22px;
     }
   
     .bloc-text {
-      min-height: 22vh;
+      /* min-height: 22vh; */
       min-width: 100vw;
       opacity: 1;
       text-align: center;
