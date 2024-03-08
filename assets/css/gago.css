@@ -2481,7 +2481,7 @@ html {
   
   .scrollingdiv {
     width: 50%;
-    height: 15vh;
+    height: 20vh;
     margin-left: 2.5vw;
     overflow: auto;
   }
