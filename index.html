@@ -91,7 +91,7 @@
             black 70%,
             transparent); */
       }
-   
+
 
       .item {
         color: white;
@@ -893,13 +893,26 @@
             let isScrolling = false;
 
             // Sao chép các phần tử để cuộn vô hạn
-            items.forEach((item) => {
+            // items.forEach((item) => {
+            //   const clone = item.cloneNode(true);
+            //   clone.setAttribute(
+            //     "data-temoin",
+            //     item.getAttribute("data-temoin")
+            //   );
+            //   container.appendChild(clone);
+            // });
+            items.forEach((item, index) => {
               const clone = item.cloneNode(true);
-              clone.setAttribute(
-                "data-temoin",
-                item.getAttribute("data-temoin")
-              );
+              clone.setAttribute("data-temoin", item.getAttribute("data-temoin"));
+
+              // Di chuyển phần tử đã sao chép vào vị trí đúng bắt đầu từ phần tử thứ 0
               container.appendChild(clone);
+
+              // Nếu đây là phần tử cuối cùng trong mảng items
+              if (index === items.length - 1) {
+                // Di chuyển phần tử đã sao chép đầu tiên vào vị trí đầu tiên
+                container.insertBefore(clone, container.firstChild);
+              }
             });
             items = Array.from(container.children);
 
@@ -918,7 +931,7 @@
               let closestItem = null;
               let minDistance = Infinity;
 
-              items.forEach((item) => {
+              items.forEach((item, index) => {
                 const itemRect = item.getBoundingClientRect();
                 const itemCenterY = (itemRect.top + itemRect.bottom) / 2;
                 const distance = Math.abs(centerY - itemCenterY);
@@ -932,7 +945,7 @@
               // Kiểm tra xem có tìm thấy phần tử cốt lõi mới không
               const newCenterItemId = closestItem
                 ? closestItem.getAttribute("data-temoin")
-                : null;
+                : 1;
               if (newCenterItemId !== currentCenterItemId) {
                 currentCenterItemId = newCenterItemId;
                 console.log(currentCenterItemId, "currentCenterItemId ")
@@ -980,27 +993,27 @@
                                           newCenterItemId == 17 ? 'rgb(80, 154, 230)  !important' :
                                             newCenterItemId == 18 ? 'rgb(230, 149, 41)  !important' : 'red !important');
                     });
-                    if (window.innerWidth <= 479 ) {
-  // Chỉ thực hiện khi chiều rộng của màn hình là 479px hoặc ít hơn
-  // Thêm mã JavaScript của bạn ở đây
-  var wrapperViewMoreElements = document.querySelectorAll('.bloc-text');
+                    if (window.innerWidth <= 479) {
+                      // Chỉ thực hiện khi chiều rộng của màn hình là 479px hoặc ít hơn
+                      // Thêm mã JavaScript của bạn ở đây
+                      var wrapperViewMoreElements = document.querySelectorAll('.bloc-text');
 
-                    wrapperViewMoreElements.forEach(function (element) {
-                      element.style.cssText = 'background: ' +
-                        (newCenterItemId == 1 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5)) !important' :
-                          newCenterItemId == 2 ? 'linear-gradient(to Top, rgb(123, 11, 0,1),rgb(255, 232, 230, 0.5))!important' :
-                            newCenterItemId == 3 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5))!important' : newCenterItemId == 4 ? 'linear-gradient(to Top, rgb(209, 84, 79,1),rgb(250, 234, 234, 0.5))!important' :
-                              newCenterItemId == 5 ? 'linear-gradient(to Top, rgb(37, 62, 159,1),rgb(193, 203, 240, 0.5))!important' :
-                                newCenterItemId == 6 ? 'linear-gradient(to Top, rgb(50, 68, 0,1),rgb(248, 255, 230, 0.5))!important' : newCenterItemId == 7 ? 'linear-gradient(to Top, rgb(254, 135, 124,1),rgb(254, 209, 205, 0.5)) !important' : newCenterItemId == 8 ? 'linear-gradient(to Top, rgb(147, 62, 37,1),rgb(245, 221, 214, 0.5)) !important' :
-                                  newCenterItemId == 9 ? 'linear-gradient(to Top, rgb(132, 12, 0,1),rgb(255, 208, 204, 0.5))  !important' :
-                                    newCenterItemId == 10 ? 'linear-gradient(to Top, rgb(9, 93, 156,1),rgb(207, 233, 252, 0.5))  !important' : newCenterItemId == 11 ? 'linear-gradient(to Top, rgb(120, 162, 85,1),rgb(229, 237, 222, 0.5)) !important' : newCenterItemId == 12 ? 'linear-gradient(to Top, rgb(194, 161, 106,1),rgb(240, 232, 219, 0.5))!important' :
-                                      newCenterItemId == 13 ? 'linear-gradient(to Top, rgb(196, 26, 33,1),rgb(252, 232, 233, 0.5))  !important' :
-                                        newCenterItemId == 14 ? 'linear-gradient(to Top, rgb(66, 163, 203,1),rgb(215, 235, 244, 0.5)) !important' : newCenterItemId == 15 ? 'linear-gradient(to Top, rgb(63, 126, 112,1),rgb(221, 238, 234, 0.5)) !important' : newCenterItemId == 16 ? 'linear-gradient(to Top, rgb(205, 68, 67,1),rgb(244, 215, 215, 0.5)) !important' :
-                                          newCenterItemId == 17 ? 'linear-gradient(to Top, rgb(91, 165, 240,1),rgb(208, 230, 251, 0.5)) !important' :
-                                            newCenterItemId == 18 ? 'linear-gradient(to Top, rgb(249, 162, 45,1),rgb(252, 221, 182, 0.5))  !important' : 'red !important');
-                    });
-}
-                    
+                      wrapperViewMoreElements.forEach(function (element) {
+                        element.style.cssText = 'background: ' +
+                          (newCenterItemId == 1 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5)) !important' :
+                            newCenterItemId == 2 ? 'linear-gradient(to Top, rgb(123, 11, 0,1),rgb(255, 232, 230, 0.5))!important' :
+                              newCenterItemId == 3 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5))!important' : newCenterItemId == 4 ? 'linear-gradient(to Top, rgb(209, 84, 79,1),rgb(250, 234, 234, 0.5))!important' :
+                                newCenterItemId == 5 ? 'linear-gradient(to Top, rgb(37, 62, 159,1),rgb(193, 203, 240, 0.5))!important' :
+                                  newCenterItemId == 6 ? 'linear-gradient(to Top, rgb(50, 68, 0,1),rgb(248, 255, 230, 0.5))!important' : newCenterItemId == 7 ? 'linear-gradient(to Top, rgb(254, 135, 124,1),rgb(254, 209, 205, 0.5)) !important' : newCenterItemId == 8 ? 'linear-gradient(to Top, rgb(147, 62, 37,1),rgb(245, 221, 214, 0.5)) !important' :
+                                    newCenterItemId == 9 ? 'linear-gradient(to Top, rgb(132, 12, 0,1),rgb(255, 208, 204, 0.5))  !important' :
+                                      newCenterItemId == 10 ? 'linear-gradient(to Top, rgb(9, 93, 156,1),rgb(207, 233, 252, 0.5))  !important' : newCenterItemId == 11 ? 'linear-gradient(to Top, rgb(120, 162, 85,1),rgb(229, 237, 222, 0.5)) !important' : newCenterItemId == 12 ? 'linear-gradient(to Top, rgb(194, 161, 106,1),rgb(240, 232, 219, 0.5))!important' :
+                                        newCenterItemId == 13 ? 'linear-gradient(to Top, rgb(196, 26, 33,1),rgb(252, 232, 233, 0.5))  !important' :
+                                          newCenterItemId == 14 ? 'linear-gradient(to Top, rgb(66, 163, 203,1),rgb(215, 235, 244, 0.5)) !important' : newCenterItemId == 15 ? 'linear-gradient(to Top, rgb(63, 126, 112,1),rgb(221, 238, 234, 0.5)) !important' : newCenterItemId == 16 ? 'linear-gradient(to Top, rgb(205, 68, 67,1),rgb(244, 215, 215, 0.5)) !important' :
+                                            newCenterItemId == 17 ? 'linear-gradient(to Top, rgb(91, 165, 240,1),rgb(208, 230, 251, 0.5)) !important' :
+                                              newCenterItemId == 18 ? 'linear-gradient(to Top, rgb(249, 162, 45,1),rgb(252, 221, 182, 0.5))  !important' : 'red !important');
+                      });
+                    }
+
                     var sideDroiteElements = document.querySelectorAll('.contact-message');
 
                     sideDroiteElements.forEach(function (element) {
@@ -1215,7 +1228,7 @@
           </h2>
         </div>
       </div>
-      
+
       <div class="ipad-detect w-embed w-script">
         <script>
           function checkDeviceOrientation() {
