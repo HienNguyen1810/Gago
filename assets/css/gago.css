@@ -3031,7 +3031,7 @@ margin-bottom: 22px;
   @media screen and (max-width: 479px) {
     .btn-view-more {
       transform: translateX(-22px)!important;
-      transform: translateY(77px)!important;
+      transform: translateY(57px)!important;
    height: 44px!important;
     }
     .flex-block {
@@ -3047,7 +3047,7 @@ margin-bottom: 22px;
   }
     .side.gauche {
       width: 100vw;
-      height: 53svh;
+      height: 76svh;
       align-items: flex-start;
       display: flex;
     }
@@ -3216,7 +3216,7 @@ margin-bottom: 22px;
     }
   
     .bloc-temoin.master, .bloc-temoin.formation-pro, .bloc-temoin.identite-valeurs, .bloc-temoin.prerequis, .bloc-temoin.bac3, .bloc-temoin.bac, .bloc-temoin.quels-metiers {
-      height: 100%;
+      height: 76svh;
       
     }
     .bloc-temoin.bac3{
