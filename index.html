@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!-- Last Published: Sat Feb 10 2024 14:27:41 GMT+0000 (Coordinated Universal Time) -->
-<html data-wf-domain="boecole.webflow.io" data-wf-page="657877dfbfc20916232573fb"
-  data-wf-site="657877dfbfc20916232573f6">
+<html >
 
 <head>
   <meta charset="utf-8" />
@@ -42,9 +41,9 @@
     })(window, document);
   </script>
   <link href="./assets/img/SVG/Logo.svg" rel="shortcut icon" type="image/x-icon" />
-  <link
+  <!-- <link
     href="https://assets-global.website-files.com/657877dfbfc20916232573f6/65a94e0bc58f4e7f69ce6b6e_boecole-webkit.jpg"
-    rel="apple-touch-icon" />
+    rel="apple-touch-icon" /> -->
 </head>
 
 <body class="body">
@@ -216,13 +215,7 @@
           </div>
         </div>
       </div>
-      <!-- <div id="content" class="rounded-pill btn-sm m-auto p-0  ">
-        <select id="languageSelect" class="font rounded-pill btn-sm">
-          <option class="font" style="background-image:url(./assets/img/behance.svg);" value="english">English</option>
-          <option class="font" value="vietnamese">🍌Vietnamese</option>
-          <option class="font" value="chinese">🍊Chinese</option>
-        </select>
-      </div> -->
+    
 
       <div class="container-select m-0 p-0 ">
 
@@ -1010,7 +1003,9 @@
             }
             const itemHeight = items[0].offsetHeight;
             let isScrolling = false;
-
+            var windowWidth = $(window).width();
+              if (windowWidth < 479) {
+            //      work for mobile
             // Sao chép các phần tử để cuộn vô hạn
             items.forEach((item) => {
               const clone = item.cloneNode(true);
@@ -1020,19 +1015,26 @@
               );
               container.appendChild(clone);
             });
-            // items.forEach((item, index) => {
-            //   const clone = item.cloneNode(true);
-            //   clone.setAttribute("data-temoin", item.getAttribute("data-temoin"));
+              }
+              var windowWidth = $(window).width();
+              if (windowWidth > 992) {
+                items.forEach((item, index) => {
+              const clone = item.cloneNode(true);
+              clone.setAttribute("data-temoin", item.getAttribute("data-temoin"));
 
-            //   // Di chuyển phần tử đã sao chép vào vị trí đúng bắt đầu từ phần tử thứ 0
-            //   container.appendChild(clone);
+              // Di chuyển phần tử đã sao chép vào vị trí đúng bắt đầu từ phần tử thứ 0
+              container.appendChild(clone);
 
-            //   // Nếu đây là phần tử cuối cùng trong mảng items
-            //   if (index === items.length - 1) {
-            //     // Di chuyển phần tử đã sao chép đầu tiên vào vị trí đầu tiên
-            //     container.insertBefore(clone, container.firstChild);
-            //   }
-            // });
+              // Nếu đây là phần tử cuối cùng trong mảng items
+              if (index === items.length - 1) {
+                // Di chuyển phần tử đã sao chép đầu tiên vào vị trí đầu tiên
+                container.insertBefore(clone, container.firstChild);
+              }
+            });
+              }
+
+            //work for destop
+           
             items = Array.from(container.children);
 
             const isMobile = window.matchMedia(
@@ -1078,7 +1080,8 @@
                   for (let i = 1; i <= 18; i++) {
                     const temoinDiv = document.getElementById(`temoin-${i}`);
                     console.log(newCenterItemId, "newCenterItemId")
-
+                    temoinDiv.style.display =
+                      i.toString() === newCenterItemId ? "block" : "none";
 
                     var sideDroiteElements = document.querySelectorAll('.side.droite');
 
@@ -1149,8 +1152,8 @@
                                           newCenterItemId == 17 ? 'rgb(80, 154, 230)  !important' :
                                             newCenterItemId == 18 ? 'rgb(230, 149, 41)  !important' : 'red !important');
                     });
-                    temoinDiv.style.display =
-                      i.toString() === newCenterItemId ? "block" : "none";
+                    console.log(newCenterItemId)
+                   
                   }
                 }
               }
@@ -1698,7 +1701,7 @@ function closeDropdown() {
     });
 
   </script>
-  <script src="./assets/js/gago.js" type="text/javascript"></script>
+  <script defer src="./assets/js/gago.js" type="text/javascript"></script>
 </body>
 
 </html>
