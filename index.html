@@ -1005,33 +1005,31 @@
             }
             const itemHeight = items[0].offsetHeight;
 
-            var windowWidth = $(window).width();
-            //   if (windowWidth < 479) {
-            // //      work for mobile
-            // // Sao chép các phần tử để cuộn vô hạn
-            // items.forEach((item) => {
-            //   const clone = item.cloneNode(true);
-            //   clone.setAttribute(
-            //     "data-temoin",
-            //     item.getAttribute("data-temoin")
-            //   );
-            //   container.appendChild(clone);
-            // });
-            //   }
               var windowWidth = $(window).width();
               if (windowWidth > 992) {
                 items.forEach((item, index) => {
-                  const clone = item.cloneNode(true);
-                  clone.setAttribute("data-temoin", item.getAttribute("data-temoin"));
-                  
-                  // Di chuyển phần tử đã sao chép vào vị trí đúng bắt đầu từ phần tử thứ 0
-                  container.appendChild(clone);
+                const clone = item.cloneNode(true);
+                clone.setAttribute("data-temoin", item.getAttribute("data-temoin"));
+                
+                // Di chuyển phần tử đã sao chép vào vị trí đúng bắt đầu từ phần tử thứ 0
+                container.appendChild(clone);
 
-                  // Nếu đây là phần tử cuối cùng trong mảng items
-                  if (index === items.length - 1) {
-                    // Di chuyển phần tử đã sao chép đầu tiên vào vị trí đầu tiên
-                    container.insertBefore(clone, container.firstChild);
-                  }
+                // Nếu đây là phần tử cuối cùng trong mảng items
+                if (index === items.length - 1) {
+                  // Di chuyển phần tử đã sao chép đầu tiên vào vị trí đầu tiên
+                  container.insertBefore(clone, container.firstChild);
+                }
+                });
+              } else if (windowWidth < 479) {
+                //      work for mobile
+                // Sao chép các phần tử để cuộn vô hạn
+                items.forEach((item) => {
+                  const clone = item.cloneNode(true);
+                  clone.setAttribute(
+                    "data-temoin",
+                    item.getAttribute("data-temoin")
+                  );
+                  container.appendChild(clone);
                 });
               }
 
