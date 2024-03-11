@@ -1161,12 +1161,26 @@
 
                   // Thực hiện các thay đổi chỉ khi chiều rộng của màn hình nhỏ hơn hoặc bằng 479px
                   if (window.innerWidth <= 479) {
-                    const wrapperViewMoreElements = document.querySelectorAll('.bloc-text');
-                    wrapperViewMoreElements.forEach((element, index) => {
-                      const colorIndex = parseInt(newCenterItemId) - 1;
-                      element.style.cssText = 'background: ' + colors[colorIndex] + ' !important';
-                    });
-                  }
+                    var wrapperViewMoreElements = document.querySelectorAll('.bloc-text');
+
+                      wrapperViewMoreElements.forEach(function (element) {
+                        element.style.cssText = 'background: ' +
+                          (newCenterItemId == 1 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5)) !important' :
+                            newCenterItemId == 2 ? 'linear-gradient(to Top, rgb(123, 11, 0,1),rgb(255, 232, 230, 0.5))!important' :
+                              newCenterItemId == 3 ? 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5))!important' : newCenterItemId == 4 ? 'linear-gradient(to Top, rgb(209, 84, 79,1),rgb(250, 234, 234, 0.5))!important' :
+                                newCenterItemId == 5 ? 'linear-gradient(to Top, rgb(37, 62, 159,1),rgb(193, 203, 240, 0.5))!important' :
+                                  newCenterItemId == 6 ? 'linear-gradient(to Top, rgb(50, 68, 0,1),rgb(248, 255, 230, 0.5))!important' : newCenterItemId == 7 ? 'linear-gradient(to Top, rgb(254, 135, 124,1),rgb(254, 209, 205, 0.5)) !important' : newCenterItemId == 8 ? 'linear-gradient(to Top, rgb(147, 62, 37,1),rgb(245, 221, 214, 0.5)) !important' :
+                                    newCenterItemId == 9 ? 'linear-gradient(to Top, rgb(132, 12, 0,1),rgb(255, 208, 204, 0.5))  !important' :
+                                      newCenterItemId == 10 ? 'linear-gradient(to Top, rgb(9, 93, 156,1),rgb(207, 233, 252, 0.5))  !important' : newCenterItemId == 11 ? 'linear-gradient(to Top, rgb(120, 162, 85,1),rgb(229, 237, 222, 0.5)) !important' : newCenterItemId == 12 ? 'linear-gradient(to Top, rgb(194, 161, 106,1),rgb(240, 232, 219, 0.5))!important' :
+                                        newCenterItemId == 13 ? 'linear-gradient(to Top, rgb(196, 26, 33,1),rgb(252, 232, 233, 0.5))  !important' :
+                                          newCenterItemId == 14 ? 'linear-gradient(to Top, rgb(66, 163, 203,1),rgb(215, 235, 244, 0.5)) !important' : newCenterItemId == 15 ? 'linear-gradient(to Top, rgb(63, 126, 112,1),rgb(221, 238, 234, 0.5)) !important' : newCenterItemId == 16 ? 'linear-gradient(to Top, rgb(205, 68, 67,1),rgb(244, 215, 215, 0.5)) !important' :
+                                            newCenterItemId == 17 ? 'linear-gradient(to Top, rgb(91, 165, 240,1),rgb(208, 230, 251, 0.5)) !important' :
+                                              newCenterItemId == 18 ? 'linear-gradient(to Top, rgb(249, 162, 45,1),rgb(252, 221, 182, 0.5))  !important' : 'red !important');
+                      });
+                    }
+                     
+                 
+                  
 
                   // Lặp qua các phần tử .contact-message để đặt màu nền
                   const contactMessageElements = document.querySelectorAll('.contact-message');
