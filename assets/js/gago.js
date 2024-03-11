@@ -3412,7 +3412,7 @@ __p+='`),
         var m2 = me()
           , g2 = 0
           , v2 = Math.random()
-          , y2 = m2(1.toString);
+          , y2 = m2((1).toString());
         ug.exports = function(e) {
             return "Symbol(" + (e === void 0 ? "" : e) + ")_" + y2(++g2 + v2, 36)
         }
