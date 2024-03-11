@@ -945,10 +945,11 @@
                   </a>
 
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item download-proposal-vietnamese"
+                    <li><a class="dropdown-item download-proposal-vietnamese" target="_blank"
                         href="https://docs.google.com/presentation/d/e/2PACX-1vRuvcis7uEg4gpG_llsVir2Koo-7DufYtOsVLfYlHXOWAX3RwG3aKE6Vqxun_O3uw/pub?start=false&loop=false&delayms=3000">Vietnamese
                         version</a></li>
                     <li><a class="dropdown-item download-proposal-english"
+                      target="_blank"
                         href="https://docs.google.com/presentation/d/e/2PACX-1vQR6p7y1MC2m-rZGfbb_m1ejnyKmpET-WFStW4r9DSFxOmlwBtDEMrGHNS1-bLXFA/pub?start=false&loop=false&delayms=3000">English
                         version</a></li>
                   </ul>
@@ -956,10 +957,10 @@
               </div>
               <div class="col">
                 <div class="social">
-                  <a class="header-link"><img src="./assets/img/behance.svg" /></a>
-                  <a class="header-link"><img src="./assets/img/instagram.svg" /></a>
-                  <a class="header-link"><img src="./assets/img/Facebook.svg" /></a>
-                  <a class="header-link"><img src="./assets/img/Linkedin.svg" /></a>
+                  <a  target="_blank" class="header-link"><img src="./assets/img/behance.svg" /></a>
+                  <a  target="_blank" class="header-link"><img src="./assets/img/instagram.svg" /></a>
+                  <a  target="_blank" class="header-link"><img src="./assets/img/Facebook.svg" /></a>
+                  <a  target="_blank" class="header-link"><img src="./assets/img/Linkedin.svg" /></a>
                 </div>
               </div>
             </div>
@@ -1170,7 +1171,7 @@
               const scrollTop = container.scrollTop;
               const scrollHeight = container.scrollHeight;
               const clientHeight = container.clientHeight;
-              if (windowWidth >= 768) {
+              if (windowWidth >= 992) {
                 if (scrollTop < itemHeight * 2.5 + 40 ) {
                 const lastItem =
                   container.children[container.children.length - 1];
