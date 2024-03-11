@@ -2481,7 +2481,7 @@ html {
   
   .scrollingdiv {
     width: 50%;
-    height: 20vh;
+    height: 85px;
     margin-left: 2.5vw;
     overflow: auto;
   }
@@ -3724,6 +3724,9 @@ font-family: inter;
     margin-top: 34px;
     background-color: #fff;
     color: #333;
+    border: 1px solid;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    ;
   }
   
   .selector-wrapper > .arrow {
