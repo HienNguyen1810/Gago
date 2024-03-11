@@ -3034,6 +3034,12 @@ margin-bottom: 22px;
       transform: translateY(57px)!important;
    height: 44px!important;
     }
+    .scrollingdiv {
+      width: 50%;
+      height: 18vh;
+      margin-left: 2.5vw;
+      overflow: auto;
+    }
     .flex-block {
       flex-direction: column;
       justify-content: end;
