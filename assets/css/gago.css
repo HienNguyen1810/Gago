@@ -2171,6 +2171,7 @@ html {
   
   .side {
     width: 50vw;
+    height: 100vh;
  
   }
   
@@ -2481,7 +2482,7 @@ html {
   
   .scrollingdiv {
     width: 50%;
-    height: 20vh;
+    height: 20%;
     margin-left: 2.5vw;
     overflow: auto;
   }
