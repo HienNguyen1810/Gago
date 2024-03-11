@@ -3687,6 +3687,7 @@ margin-bottom: 22px;
     justify-content: center;
     align-items: center;
     display: none;
+    z-index: 999;
   }
 
 .image-icon{
