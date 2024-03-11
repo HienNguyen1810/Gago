@@ -1077,12 +1077,10 @@
             // Cập nhật phần tử trung tâm
             function updateCenterItem() {
               const scrollingDiv = document.getElementById('scrollingDiv');
-              const scrollPosition = scrollingDiv.scrollTop;
-              console.log('Vị trí cuộn của scrollingDiv:', scrollPosition);
-              console.log("chiều cao màn hình", window.innerHeight);
+             
 
               const centerY = isMobile
-                ? scrollPosition
+                ? window.innerHeight *0.8
                 : window.innerHeight / 2;
               console.log(centerY, "centerY");
 
