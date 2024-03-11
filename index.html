@@ -1191,7 +1191,7 @@
                 if (scrollTop < itemHeight * 2) {
                   const lastItem = container.children[container.children.length - 1];
                   container.insertBefore(lastItem, container.firstChild);
-                  container.scrollTop += itemHeight;
+                  container.scrollTop += itemHeight - 20;
                 } else if (scrollTop + clientHeight >= scrollHeight - itemHeight * 2) {
                   const firstItem = container.children[0];
                   container.appendChild(firstItem);
