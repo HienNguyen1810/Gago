@@ -84,11 +84,11 @@
       #scrollingDiv {
         overflow-y: auto;
         /* Thêm mặt nạ bằng hình ảnh mặt nạ có độ dốc tuyến tính*/
-        /* mask-image: linear-gradient(to bottom,
+        mask-image: linear-gradient(to bottom,
             transparent,
             black 20%,
             black 70%,
-            transparent); */
+            transparent);
       }
 
 
@@ -1049,7 +1049,6 @@
               const centerY = isMobile
                 ? window.innerHeight * 0.8
                 : window.innerHeight / 2;
-                
               let closestItem = null;
               let minDistance = Infinity;
 
@@ -1171,8 +1170,22 @@
               const scrollTop = container.scrollTop;
               const scrollHeight = container.scrollHeight;
               const clientHeight = container.clientHeight;
-
-              if (scrollTop < itemHeight * 2) {
+              if (windowWidth >= 768) {
+                if (scrollTop < itemHeight * 2.5 + 40 ) {
+                const lastItem =
+                  container.children[container.children.length - 1];
+                container.insertBefore(lastItem, container.firstChild);
+                container.scrollTop += itemHeight ;
+              } else if (
+                scrollTop + clientHeight >=
+                scrollHeight - itemHeight
+              ) {
+                const firstItem = container.children[0];
+                container.appendChild(firstItem);
+                container.scrollTop -= itemHeight;
+              }
+              }else{
+                if (scrollTop < itemHeight * 2) {
                 const lastItem =
                   container.children[container.children.length - 1];
                 container.insertBefore(lastItem, container.firstChild);
@@ -1185,6 +1198,8 @@
                 container.appendChild(firstItem);
                 container.scrollTop -= itemHeight;
               }
+              }
+             
             };
             // Điều tiết để tối ưu hóa hiệu suất cuộn
             const throttle = (func, limit) => {
