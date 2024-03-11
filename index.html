@@ -1089,10 +1089,10 @@
 
             // Cập nhật phần tử trung tâm
             function updateCenterItem() {
-              // const centerY = isMobile
-              //   ? window.innerHeight * 0.8
-              //   : window.innerHeight / 2;
-              const centerY = window.innerHeight / 2 ;
+              const centerY = isMobile
+                ? window.innerHeight * 0.8
+                : window.innerHeight / 2;
+            
               console.log("chiều cao màn hình", window.innerHeight);
               console.log("centerY", centerY);
               let closestItem = null;
