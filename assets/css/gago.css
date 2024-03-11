@@ -815,7 +815,7 @@ html {
   }
   a button.link-view-more:hover
 {
-  transition: 0.5 ease;
+  transition: 0.3 ease;
     color: floralwhite! important;
     background-color: black;
     text-decoration: none! important;
@@ -2187,7 +2187,7 @@ html {
   }
 
   .side.droite {
-   transition: 0.6s ease! important;
+   transition: 0.3s ease! important;
     flex-direction: row;
     order: 1;
     justify-content: flex-start;
@@ -2536,6 +2536,7 @@ html {
     position: fixed;
     bottom: 0%;
     left: 3vw;
+    transition: 0.3 ease;
   }
   
   .bloc-text.alt-square {
@@ -3683,9 +3684,7 @@ margin-bottom: 22px;
     opacity: 0;
     /* border-radius: 15px; */
     overflow: auto;
-    transition:
     order: 1;
-  
     position: absolute;
     z-index: 100;
   }
