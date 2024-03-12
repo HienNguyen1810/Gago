@@ -3366,6 +3366,7 @@ margin-bottom: 22px;
       bottom: 3%;
       left: 0%;
       right: 0%;
+      z-index: 10;
     }
     .contact-message {
       bottom: 3%!important;
