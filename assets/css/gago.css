@@ -3363,11 +3363,14 @@ margin-bottom: 22px;
     .html-embed-2 {
       position: fixed;
       top: auto;
-      bottom: 0%;
+      bottom: 3%;
       left: 0%;
       right: 0%;
     }
-  
+    .contact-message {
+      bottom: 3%!important;
+      right: 24px!important;
+    }
     .croix-popup {
       width: 7vw;
       display: block;
