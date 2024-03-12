@@ -1014,6 +1014,12 @@ html {
   }
   
   @media screen and (max-width: 479px) {
+    .link{
+      display: inline-block!important;
+      width:100% !important;
+      text-align: center !important;
+      margin: 0!important;
+    }
     .w-container {
       max-width: none;
     }
@@ -3070,10 +3076,6 @@ margin-bottom: 22px;
 
 
   @media screen and (max-width: 479px) {
-    .item{
-     margin: 0!important;
-     margin-bottom: 5px! important;
-    }
     .btn-view-more {
       transform: translateX(-22px)!important;
       transform: translateY(57px)!important;
@@ -3256,8 +3258,8 @@ margin-bottom: 22px;
     .scrollingdiv {
       width: 75%;
       height: 20vh;
-     
-   
+      margin-top: 0;
+      margin-left: 0;
     }
   
     .bloc-temoin.master, .bloc-temoin.formation-pro, .bloc-temoin.identite-valeurs, .bloc-temoin.prerequis, .bloc-temoin.bac3, .bloc-temoin.bac, .bloc-temoin.quels-metiers {
@@ -3584,11 +3586,7 @@ margin-bottom: 22px;
     .qualiopi-bold {
       font-size: 16px;
     }
-    .link{
-      display: inline-block;
-      width: 100%;
-      text-align: center;
-    }
+  
     .link-qualiopi {
       color: var(--vert-bo);
       font-size: 14px;
