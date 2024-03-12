@@ -1019,6 +1019,7 @@ html {
       width:100% !important;
       text-align: center !important;
       margin: 0!important;
+      font-weight: bold;
     }
     .w-container {
       max-width: none;
@@ -2297,6 +2298,8 @@ html {
     color: #fff;
     text-decoration: none;
     display: inline;
+    font-family: Inter;
+    font-weight: bold;
   }
   
   .main-container {
