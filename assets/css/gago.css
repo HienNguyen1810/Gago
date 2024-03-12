@@ -1015,8 +1015,8 @@ html {
   
   @media screen and (max-width: 479px) {
     .select-box .option:hover {
-      background: #fff;
-      color: #333;
+      background: #fff!important;
+      color: #333!important;
     }
     
     .link{
