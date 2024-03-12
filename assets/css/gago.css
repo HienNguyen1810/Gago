@@ -845,7 +845,7 @@ html {
 {
   transition: 0.3 ease;
     color: floralwhite! important;
-    background-color: black;
+    background-color: #333;
     text-decoration: none! important;
     cursor: pointer;
   }
@@ -3079,6 +3079,9 @@ margin-bottom: 22px;
 
 
   @media screen and (max-width: 479px) {
+    .item{
+      margin: 25px 0!important;
+    }
     .btn-view-more {
       transform: translateX(-22px)!important;
       transform: translateY(57px)!important;
@@ -3869,7 +3872,8 @@ font-family: inter;
   }
   
   .select-box .option:hover {
-    background: #414b57;
+    background: #333;
+    color: #fff;
   }
   
   .select-box label {
@@ -3906,7 +3910,7 @@ font-family: inter;
   }
   
   .option {
-    margin: 10px;
+    padding: 10px;
     /* border-radius: 10px; */
     font-size: 14px;
     font-family: inter;
