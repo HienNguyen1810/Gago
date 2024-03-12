@@ -3071,9 +3071,7 @@ margin-bottom: 22px;
 
   @media screen and (max-width: 479px) {
     .item{
-      margin: 24px 0;
-      padding-bottom: 13px;
-      text-align: center;
+     margin: 0!important;
     }
     .btn-view-more {
       transform: translateX(-22px)!important;
@@ -3257,8 +3255,8 @@ margin-bottom: 22px;
     .scrollingdiv {
       width: 75%;
       height: 20vh;
-      margin-top: 0;
-      margin-left: 15vw;
+     
+   
     }
   
     .bloc-temoin.master, .bloc-temoin.formation-pro, .bloc-temoin.identite-valeurs, .bloc-temoin.prerequis, .bloc-temoin.bac3, .bloc-temoin.bac, .bloc-temoin.quels-metiers {
@@ -3585,7 +3583,11 @@ margin-bottom: 22px;
     .qualiopi-bold {
       font-size: 16px;
     }
-  
+    .link{
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
     .link-qualiopi {
       color: var(--vert-bo);
       font-size: 14px;
