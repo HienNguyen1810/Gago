@@ -3070,6 +3070,11 @@ margin-bottom: 22px;
 
 
   @media screen and (max-width: 479px) {
+    .item{
+      margin: 24px 0;
+      padding-bottom: 13px;
+      text-align: center;
+    }
     .btn-view-more {
       transform: translateX(-22px)!important;
       transform: translateY(57px)!important;
