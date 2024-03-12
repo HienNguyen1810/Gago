@@ -3778,7 +3778,7 @@ font-family: inter;
     max-height: 240px;
     opacity: 1;
     overflow-y: hidden;
-    margin-top: 34px;
+    padding: 34px;
     background-color: #fff;
     color: #333;
     border: 1px solid #d9d9d9;
