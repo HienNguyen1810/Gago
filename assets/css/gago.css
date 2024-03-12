@@ -1014,6 +1014,11 @@ html {
   }
   
   @media screen and (max-width: 479px) {
+    .select-box .option:hover {
+      background: #fff;
+      color: #333;
+    }
+    
     .link{
       display: inline-block!important;
       width:100% !important;
@@ -3778,7 +3783,6 @@ font-family: inter;
     max-height: 240px;
     opacity: 1;
     overflow-y: hidden;
-    padding-top: 34px;
     margin-top: 34px;
     background-color: #fff;
     color: #333;
