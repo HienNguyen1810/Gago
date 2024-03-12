@@ -853,6 +853,16 @@ html {
     stroke: floralwhite!important;
     transition: 0.5 ease;
   }
+  .download-proposal,
+  .dropdown-item{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .dropdown-item:hover{
+    color: floralwhite! important;
+    background-color: #333! important; 
+  }
   .select2-selection__rendered .icon {
     width: 20px;
     height: 20px;
