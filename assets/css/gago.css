@@ -1024,6 +1024,10 @@ html {
   }
   
   @media screen and (max-width: 479px) {
+    .dropdown-item:hover{
+      color: #333! important;
+      background-color: floralwhite! important; 
+    }
     .select-box .option:hover {
       background: #fff!important;
       color: #333!important;
