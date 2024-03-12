@@ -3675,6 +3675,7 @@ margin-bottom: 22px;
     right: 40px;
     bottom: 32px;
     /* background-color: #79301B; */
+    z-index: 100
     ;
   }
   .contact-social-list{
@@ -3687,7 +3688,7 @@ margin-bottom: 22px;
     justify-content: center;
     align-items: center;
     display: none;
-    z-index: 999;
+    z-index: 100;
   }
 
 .image-icon{
