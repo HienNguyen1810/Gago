@@ -1047,7 +1047,7 @@ html {
       display: none!important;
     }
     .titre-temoin.black{
-      padding-left: 22px;
+      padding-left: 5vw;
     }
     .social-mobile-2 a,
     .social-mobile-1 a {
@@ -2449,19 +2449,23 @@ html {
 
   
   .texte-temoin {
-    width: 41vw;
+   
     color: var(--sombre);
     margin-bottom: 2%;
     font-family: inter;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 130%;
+    line-height: 140%;
     display: block;
     position: static;
     top: auto;
     bottom: 0%;
     left: 5%;
     right: auto;
+  }
+  .viewMore{
+    position: absolute;
+    padding: 0!important;
   }
   
   .texte-temoin.alt-white {
@@ -2596,13 +2600,16 @@ html {
   
   .bloc-text {
     z-index: 999;
-    margin-right: 5%;
     position: fixed;
     bottom: 0%;
     left: 3vw;
     transition: 0.3 ease;
+    
   }
-  
+  .bloc-text .row{
+    width: 44vw;
+    margin: 0;
+  }
   .bloc-text.alt-square {
     bottom: 11%;
   }
@@ -3083,27 +3090,30 @@ margin-bottom: 22px;
     
   }
   .btn-view-more {
-    transform: translateX(-69px)!important;
     height: 30px;
     width: 122px;
   }
   
   }
   
-  @media screen and (max-width: 720px) {
-    .btn-view-more {
-      transform: translateX(-99px)!important;
-    }
-    }
+
 
 
   @media screen and (max-width: 479px) {
+    .viewMore{
+      margin-top: 1vh! important;
+      padding-right: 5vw! important;
+    }
+    .bloc-text .row{
+      width: 100vw;
+      margin: 0;
+      position:static;
+    }
     .item{
       margin: 25px 0!important;
     }
     .btn-view-more {
-      transform: translateX(-22px)!important;
-      transform: translateY(57px)!important;
+
    height: 44px!important;
     }
     .flex-block {
@@ -3260,6 +3270,7 @@ margin-bottom: 22px;
     }
   
     .texte-temoin {
+      text-align: justify;
       width: 100%;
       color: var(--blanc);
       padding-left: 5vw;
@@ -3309,8 +3320,7 @@ margin-bottom: 22px;
     }
   
     .bloc-text {
-      /* min-height: 22vh; */
-      min-width: 100vw;
+
       opacity: 1;
       text-align: center;
       background-color: rgba(120, 215, 205, .59);
@@ -3694,7 +3704,6 @@ margin-bottom: 22px;
     background-color: #ffff;
     border: 1px solid #161616;
     margin: auto;
-      transform: translateX(-33px);
   }
   .header-link,.contact-message,.btn {
    transition:0.3s ease! important;
