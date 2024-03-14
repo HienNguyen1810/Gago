@@ -1,0 +1,164 @@
+ [
+  {
+    "id": "temoin-1",
+    "idContent": "teroContent",
+    "class": "temoin",
+    "image": "./assets/img/00 TERO.png",
+    "title": "TERO",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/192723993/MASCOT-3D-DESIGN-TERO"
+  },
+  {
+    "id": "temoin-2",
+    "idContent": "undermeContent",
+    "class": "temoin",
+    "image": "./assets/img/01 UNDERME.png",
+    "title": "UNDERME",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/184295181/Mascot-Design-UNDERME"
+  },
+  {
+    "id": "temoin-3",
+    "idContent": "mopyContent",
+    "class": "temoin",
+    "image": "./assets/img/02 MOPY.png",
+    "title": "MOPY",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+  },
+  {
+    "id": "temoin-4",
+    "idContent": "cupidContent",
+    "class": "temoin",
+    "title": "CUPID",
+    "image": "./assets/img/03 CUPID.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/185625807/Mascot-Design-CUPID"
+  },
+  {
+    "id": "temoin-5",
+    "idContent": "dreamBabyContent",
+    "class": "temoin",
+    "title": "DREAM BABY",
+    "image": "./assets/img/04 DREAM BABY.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/189081627/MASCOT-DESIGN-DREAM-BABY"
+  },
+  {
+    "id": "temoin-6",
+    "idContent": "richterContent",
+    "class": "temoin",
+    "title": "RICHTER",
+    "image": "./assets/img/05 RICHTER.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/190383941/MASCOT-DESIGN-RICHTER"
+  },
+  {
+    "id": "temoin-7",
+    "idContent": "bunnyContent",
+    "class": "temoin",
+    "title": "THE LITTLE BUNNY",
+    "image": "./assets/img/06 THE LITTLE BUNNY.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+  },
+  {
+    "id": "temoin-8",
+    "idContent": "terrisaContent",
+    "class": "temoin",
+    "title": "TERRISA",
+    "image": "./assets/img/07 TERRISA.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/188691307/MASCOT-DESIGN-TERRISA"
+  },
+  {
+    "id": "temoin-9",
+    "idContent": "kimKitchenContent",
+    "class": "temoin",
+    "title": "UNCLE KIM THE CHEF",
+    "image": "./assets/img/08 UNCLE KIM THE CHEF.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/192053721/BRAND-MASCOT-for-food-KIM-KORE"
+  },
+  {
+    "id": "temoin-10",
+    "idContent": "riisoContent",
+    "class": "temoin",
+    "title": "RIISO",
+    "image": "./assets/img/09 RIISO.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/187996283/MASCOT-DESIGN-RIISO"
+  },
+  {
+    "id": "temoin-11",
+    "idContent": "tibiContent",
+    "class": "temoin",
+    "title": "TIBI",
+    "image": "./assets/img/10 TIBI.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/187498461/MASCOT-DESIGN-TIBI"
+  },
+  {
+    "id": "temoin-12",
+    "idContent": "riceBabyContent",
+    "class": "temoin",
+    "title": "RICE BABY",
+    "image": "./assets/img/11 RICE BABY.gif",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/187349915/MASCOT-DESIGN-RICE-BABY"
+  },
+  {
+    "id": "temoin-13",
+    "idContent": "antaContent",
+    "class": "temoin",
+    "title": "ANTA",
+    "image": "./assets/img/ANTA.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/188005575/MASCOT-DESIGN-ANTA"
+  },
+  {
+    "id": "temoin-14",
+    "idContent": "tigerPeonyContent",
+    "class": "temoin",
+    "title": "SILVER TIGER & PEONY",
+    "image": "./assets/img/13 SILVER TIGER & PEONY.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/190279123/MASCOT-DESIGN-SILVER-TIGER-PEONY"
+  },
+  {
+    "id": "temoin-15",
+    "idContent": "bellHomeContent",
+    "class": "temoin",
+    "title": "BELLHOME",
+    "image": "./assets/img/15 BELLHOME.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+  },
+  {
+    "id": "temoin-16",
+    "idContent": "ngoSteakContent",
+    "class": "temoin",
+    "title": "NGO STEAK",
+    "image": "./assets/img/16 NGO STEAK.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+  },
+  {
+    "id": "temoin-17",
+    "idContent": "ghCreationContent",
+    "class": "temoin",
+    "title": "GH CREATION",
+    "image": "./assets/img/17 GH CREATION.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+  },
+  {
+    "id": "temoin-18",
+    "idContent": "pippyContent",
+    "class": "temoin",
+    "title": "PIPPY",
+    "image": "./assets/img/18 PIPPY.png",
+    "content": "Lorem ipsum dolor sit amet",
+    "link": "https://www.behance.net/gallery/188584797/Sticker-Pack-for-PIPPY"
+  }
+]
