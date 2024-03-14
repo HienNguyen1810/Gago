@@ -3089,6 +3089,9 @@ margin-bottom: 22px;
     width: 38vw!important;
     
   }
+  .titre-temoin{
+    max-width: 60%;
+  }
   .btn-view-more {
     height: 30px;
     width: 122px;
@@ -3100,6 +3103,7 @@ margin-bottom: 22px;
 
 
   @media screen and (max-width: 479px) {
+ 
     .viewMore{
       margin-top: 1vh! important;
       padding-right: 5vw! important;
@@ -3257,6 +3261,7 @@ margin-bottom: 22px;
   
     .titre-temoin {
       width: 100%;
+      max-width: 60vw;
       margin-top: 2vh;
       padding-left: 0;
       padding-right: 0;
