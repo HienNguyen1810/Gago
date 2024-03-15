@@ -46,8 +46,8 @@
     },
     "downloadProposal": {
       "downloadProposalText": "Download Proposal",
-      "vnProposalText": "Vietnamese version",
-      "engProposalText": "English version"
+      "vnProposalText": "Vietnamese Version",
+      "engProposalText": "English Version"
     }
   },
   "vietnamese": {

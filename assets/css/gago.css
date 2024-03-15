@@ -2238,7 +2238,9 @@ html {
   }
   
   .side.gauche {
-    background-color: #FFFF;
+    background-image: url(/assets/img/00\ TERO.png);
+    background-size: cover;
+    opacity: 0.9;
   }
   
   .side.gauche.en-savoir-plus {
