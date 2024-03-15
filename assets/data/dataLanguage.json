@@ -1,0 +1,155 @@
+ {
+  "english": {
+    "tero": {
+      "teroContent": "Tero is the mascot of Tego Global, a company providing software solutions to global clients. With the image of a friendly robot filled with advanced technology, Tero will be Tego's representative to bring the 'grey matter' of Vietnamese people to serve clients around the world.",
+      "buttonView": "View more"
+    },
+    "underme": {
+      "undermeContent": "Underme is a brand that provides sports underwear products for women. Taking advantage of the image of their target customers to create a Mascot, GAGO and Underme crafted a character full of femininity, youth, and extreme dynamism in Underme's outfit.",
+      "buttonView": "View more"
+    },
+    "mopy": {
+      "mopyContent": "Mopy the raccoon - an astronaut from the galaxy will accompany the children on the journey of learning through English. Mopy has a small appearance but is extremely adorable and friendly, ready to support children on their adventure of searching for knowledge.",
+      "buttonView": "View more"
+    },
+    "cupid": {
+      "cupidContent": "Cupid is the god of love and desire in Greek mythology. Based on the story, GAGO built the image of Cupid as an angelic boy with wings and a bow and arrow of love, bringing happiness to any couple who comes to Cupid Love Hotel.",
+      "buttonView": "View more"
+    },
+    "dreamBaby": {
+      "dreamBabyContent": "I'm Dream Baby, the mascot of the Dream Garden - Vuon Mong Mo. I was inspired by the Trich Co birds that are raised and specially cared for at Vuon Mong Mo eco-tourism area. My role is as an enthusiastic and friendly tour guide, supporting visitors to the Garden for entertainment and relaxation with their families.",
+      "buttonView": "View more"
+    },
+    "riceBaby": {
+      "riceBabyContent": "Inspired by the Ao Dai - a Vietnamese traditional costume, combined with the shiny yellow color of rice flowers, Be Gao appears with a small, pretty, and adorable image, similar to Vietnamese people. The baby's highlight lies in the crown - a unique combination of the rice grains and the brand logo of Thanh Tin Food.",
+      "buttonView": "View more"
+    },
+    "tibi": {
+      "tibiContent": "TiBi is the mascot of TBI -Tra Vinh Business Incubator. This is a training team with a spirit full of enthusiasm and creativity. Inspired by those outstanding features, GAGO has created a 'Spirit of the jungle' - TiBi. TiBi has a petite appearance with green & yellow colors symbolizing the sacred forest. It wears glasses and ties to show the professionalism of a trainer.",
+      "buttonView": "View more"
+    },
+    "anta": {
+      "antaContent": "The Mascot AnTa has a spirit of readiness, enthusiasm, and responsibility in supporting customers. The character's design has a helmet, gloves, and the brand's signature red color, making the character extremely outstanding and impressive. Mascot Anta will always accompany customers on every journey of shopping at Lien Da Electric Motorcycle and Vehicle Store in Ninh Binh.",
+      "buttonView": "View more"
+    },
+    "tigerPeony": {
+      "tigerPeonyContent": "The Silver Tiger and Peony Mascot duo was built by GAGO on the image of 'Beauty and the Beast'. This is a combination of two opposing personalities but is extremely balanced and harmonious. The two of them will be caretakers and trustworthy companions for Adventure Venture customers on every adventurous journey, exploring colorful life.",
+      "buttonView": "View more"
+    },
+    "pippy": {
+      "pippyContent": "Pippy is a set of 30 Stickers developed from the existing Fried Chicken Mascot. GAGO has crafted Pippy with funny and extremely cute scenes. Pippy will be a close friend, accompanying the children in fun activities and eating.",
+      "buttonView": "View more"
+    },
+    "ghCreation": {
+      "ghCreationContent": "The combination of science and medical research is the mascot inspiration for the GH-Creation brand. With the blue and white color, combined with a blouse. The Mascot represents the doctor who discovered and created nutritional formulas to help increase the height of children. The special feature of the mascot is that key chemical elements fly around it. And the glasses are stylized from the human genetic sequence.",
+      "buttonView": "View more"
+    },
+    "downloadProposal": {
+      "downloadProposalText": "Download Proposal",
+      "vnProposalText": "Vietnamese version",
+      "engProposalText": "English version"
+    }
+  },
+  "vietnamese": {
+    "tero": {
+      "teroContent": "Tero là linh vật của công ty Tego Global - chuyên cung cấp các giải pháp phần mềm cho khách hàng toàn cầu. Với hình tượng một người bạn robot mang đầy những công nghệ tân tiến, Tero sẽ là bạn đồng hành cùng Tego để đưa chất xám và trí tuệ của người Việt phục vụ khách hàng trên toàn thế giới.",
+      "buttonView": "Xem thêm"
+    },
+    "underme": {
+      "undermeContent": "Underme là một thương hiệu cung cấp các sản phẩm đồ lót thể thao cho nữ giới. Lấy trực tiếp hình ảnh khách hàng mục tiêu để xây dựng hình tượng linh vật, GAGO đã cùng Underme sáng tạo nhân vật Mascot mang đầy sự nữ tính, năng động, và cực kỳ trẻ trung trong bộ trang phục của Underme.",
+      "buttonView": "Xem thêm"
+    },
+    "mopy": {
+      "mopyContent": "Gấu mèo Mopy - Phi hành gia đến từ dải ngân hà sẽ đồng hành cùng các bạn nhỏ trên chặng đường học hỏi trí tuệ thông qua ngôn ngữ Tiếng Anh. Mopy có tạo hình nhỏ nhắn nhưng cực kỳ đáng yêu và thân thiện, sẵn sàng hỗ trợ và nâng đỡ các bạn nhỏ trên hành trình tìm kiếm tri thức.",
+      "buttonView": "Xem thêm"
+    },
+    "cupid": {
+      "cupidContent": "Cupid là vị thần đại diện của khát khao tình yêu trong thần thoại Hy Lạp. Dựa trên những hình ảnh được mô tả trong truyền thuyết, GAGO đã xây dựng hình tượng Cupid là một cậu bé thiên thần với đôi cánh và cung tên tình yêu, mang đến hạnh phúc cho bất kỳ cặp đôi nào đến với khách sạn tình yêu Cupid Love Hotel.",
+      "buttonView": "Xem thêm"
+    },
+    "dreamBaby": {
+      "dreamBabyContent": "Mình là Bé Mơ, linh vật của Vườn Mộng Mơ đây! Mình được lấy cảm hứng từ những chú chim Trích Cồ được nuôi dưỡng và chăm sóc đặc biệt tại khu du lịch sinh thái Vườn Mộng Mơ. Vai trò của mình là một hướng dẫn viên du lịch nhiệt tình và thân thiện, hỗ trợ các khách tham quan đến với Vườn để sự giải trí và thư giãn cùng gia đình.",
+      "buttonView": "Xem thêm"
+    },
+    "riceBaby": {
+      "riceBabyContent": "Lấy cảm hứng từ hình ảnh tà áo dài truyền thống - biểu tượng của văn hóa Việt Nam, kết hợp cùng sắc vàng óng ả của bông lúa, Bé Gạo hiện lên với hình ảnh nhỏ nhắn, xinh xắn, cùng sự thân thiện, hệt như con người Việt Nam. Điểm nhấn của bé nằm ở chiếc mão - một sự kết hợp độc đáo giữa hình ảnh hạt gạo và logo thương hiệu của Thành Tín Food.",
+      "buttonView": "Xem thêm"
+    },
+    "tibi": {
+      "tibiContent": "TiBi là bé mascot của TBI (Vườn Ươm Doanh Nghiệp Tỉnh Trà Vinh) - đây một đội ngũ đào tạo với tinh thần tràn đầy nhiệt huyết và sáng tạo. Lấy cảm hứng từ chính những phẩm chất tốt đẹp đó, GAGO đã xây dựng hình tượng một 'Tinh Linh của rừng già' - TiBi. Bé TiBi có ngoại hình nhỏ nhắn, màu sắc chủ đạo xanh - vàng tượng trưng cho rừng thiêng, cặp mắt kính cùng cà vạt thể hiện sự chỉnh chu của một nhà đào tạo.",
+      "buttonView": "Xem thêm"
+    },
+    "anta": {
+      "antaContent": "'Ai cần tớ đó, có tớ đây' là tinh thần sẵn sàng, nhiệt tình và trách nhiệm của Anta trong việc hỗ trợ và chăm sóc khách hàng. Mascot Anta sẽ luôn đồng hành cùng khách hàng trên mọi hành trình trải nghiệm mua sắm, sửa chữa tại cửa hàng Xe Máy Xe Điện Liên Đá Ninh Bình.",
+      "buttonView": "Xem thêm"
+    },
+    "tigerPeony": {
+      "tigerPeonyContent": "Bộ đôi Mascot Hổ Bạc và Mẫu Đơn được GAGO xây dựng trên hình tượng ‘Người đẹp và Quái vật’. Đây là sự kết hợp giữa hai cá tính tưởng chừng đối lập nhưng lại vô cùng cân bằng và hòa hợp. Hai bạn sẽ là những người chăm sóc, bạn đồng hành đáng tin cậy với khách hàng Adventure Venture trên mọi hành trình phiêu lưu mạo hiểm, khám phá cuộc sống muôn màu.",
+      "buttonView": "Xem thêm"
+    },
+    "pippy": {
+      "pippyContent": "Pippy là bộ 30 Sticker được phát triển từ Mascot Gà Rán sẵn có. GAGO đã biến hóa Pippy với những hoạt động ngộ nghĩnh và cực kỳ dễ thương. Pippy sẽ là người bạn thân thiết, đồng hành cùng các bé trong những hoạt động vui chơi và ăn uống.",
+      "buttonView": "Xem thêm"
+    },
+    "ghCreation": {
+      "ghCreationContent": "Sự kết hợp giữa khoa học và y học là nguồn cảm hứng mascot cho thương hiệu GH-Creation. Với tông màu chủ đạo xanh trắng, kết hợp cùng áo blouse. Mascot là hình ảnh đại diện của vị bác sĩ đã khám phá và chế tạo ra nhứng công thức dinh dưỡng giúp tăng chiều cao các bạn nhỏ.",
+      "buttonView": "Xem thêm"
+    },
+    "downloadProposal": {
+      "downloadProposalText": "Tải xuống portfolio",
+      "vnProposalText": "Phiên bản tiếng việt",
+      "engProposalText": "Phiên bản tiếng anh"
+    }
+  },
+  "chinese": {
+    "tero": {
+      "teroContent": "引入未來的現代技術，透過獨特的 IT 解決方案為全球客戶提供建議、支援和服務",
+      "buttonView": "看更多"
+    },
+    "underme": {
+      "undermeContent": "透過運動內衣產品為Z世代女孩帶來自信、個性和活力",
+      "buttonView": "看更多"
+    },
+    "mopy": {
+      "mopyContent": "陪伴孩子踏上刺激的太空之旅，透過英語尋找知識",
+      "buttonView": "看更多"
+    },
+    "cupid": {
+      "cupidContent": "丘比特之愛飯店專屬服務為愛鳥帶來美好體驗",
+      "buttonView": "看更多"
+    },
+    "dreamBaby": {
+      "dreamBabyContent": "陪伴孩子踏上刺激的太空之旅，透過英語尋找知識",
+      "buttonView": "看更多"
+    },
+    "riceBaby": {
+      "riceBabyContent": "丘比特之愛飯店專屬服務為愛鳥帶來美好體驗",
+      "buttonView": "看更多"
+    },
+    "tibi": {
+      "tibiContent": "TBI - 的外表，標誌性的眼鏡和領帶，展現教育家的俐落",
+      "buttonView": "看更多"
+    },
+    "anta": {
+      "antaContent": "帶來奢華、精緻設計的高端產品，適合所有衛浴空間",
+      "buttonView": "看更多"
+    },
+    "tigerPeony": {
+      "tigerPeonyContent": "向那些希望學習如何準備韓國辣菜的人傳授技能",
+      "buttonView": "看更多"
+    },
+    "pippy": {
+      "pippyContent": "美女與狼人的冒險經歷",
+      "buttonView": "看更多"
+    },
+    "ghCreation": {
+      "ghCreationContent": "為孩子們提供美味的炸雞",
+      "buttonView": "看更多"
+    },
+    "downloadProposal": {
+      "downloadProposalText": "下載提案",
+      "vnProposalText": "越南語版",
+      "engProposalText": "英文版"
+    }
+  }
+}
