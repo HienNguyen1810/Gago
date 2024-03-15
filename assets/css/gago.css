@@ -3725,7 +3725,7 @@ margin-bottom: 22px;
     border-radius: 100%;
     right: 40px;
     bottom: 32px;
-    /* background-color: #79301B; */
+    cursor: pointer;
     z-index: 100
     ;
   }
