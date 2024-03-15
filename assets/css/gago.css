@@ -3771,8 +3771,8 @@ margin-bottom: 22px;
   .select-box .options-container {
     background: #1c2028;
     color: #fff;
-    max-height: 0;
-    width: 100%;
+
+
     opacity: 0;
     /* border-radius: 15px; */
     overflow: auto;
@@ -3813,6 +3813,8 @@ font-family: inter;
     max-height: 240px;
     opacity: 1;
     overflow-y: hidden;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 34px;
     background-color: #fff;
     color: #333;
@@ -3914,7 +3916,10 @@ font-family: inter;
   .select-box label {
     cursor: pointer;
     display: block;
-    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 14px;
     font-family: Inter;
     font-weight: 500!important;
