@@ -781,7 +781,61 @@
         </script>
       </div>
       <div id="scrollingDiv" class="scrollingdiv">
-        
+        <div data-temoin="1" class="item">
+          <h2 class="heading-2">
+            <p class="link">TERO</p>
+          </h2>
+        </div>
+        <div data-temoin="2" class="item">
+          <h2 class="heading-2">
+            <p class="link">UNDERME</p>
+          </h2>
+        </div>
+        <div data-temoin="3" class="item">
+          <h2 class="heading-2">
+            <p data-temoin="3" class="link">MOPY</p>
+          </h2>
+        </div>
+        <div data-temoin="4" class="item">
+          <h2 class="heading-2">
+            <p +3 class="link">CUPID</p>
+          </h2>
+        </div>
+        <div data-temoin="5" class="item">
+          <h2 class="heading-2">
+            <p class="link">DREAM BABY</p>
+          </h2>
+        </div>
+        <div data-temoin="6" class="item">
+          <h2 class="heading-2">
+            <p class="link">TIBI</p>
+          </h2>
+        </div>
+        <div data-temoin="7" class="item">
+          <h2 class="heading-2">
+            <p class="link">RICE BABY</p>
+          </h2>
+        </div>
+        <div data-temoin="8" class="item">
+          <h2 class="heading-2">
+            <p class="link">ANTA</p>
+          </h2>
+        </div>
+        <div data-temoin="9" class="item">
+          <h2 class="heading-2">
+            <p class="link">SILVER TIGER & PEONY</p>
+          </h2>
+        </div>
+        <div data-temoin="10" class="item">
+          <h2 class="heading-2">
+            <p class="link">GH CREATION</p>
+          </h2>
+        </div>
+        <div data-temoin="11" class="item">
+          <h2 class="heading-2">
+            <p class="link">PIPPY</p>
+          </h2>
+        </div>
       </div>
 
       <div class="ipad-detect w-embed w-script">
@@ -1073,20 +1127,20 @@
         temoinContainer.appendChild(temoinDiv);
       })
     });
-    // Chức năng tạo content bên tay phải
-    $.getJSON("./assets/data/data.json", (temoinsTitle) => {
-      temoinsTitle.forEach((temoin, index) => {
-        const div = document.createElement("div");
-        div.setAttribute("data-temoin", index + 1);
-        div.classList.add("item");
-        div.innerHTML = `
-      <h2 class="heading-2">
-        <p class="link">${temoin.title}</p>
-      </h2>
-    `;
-        document.getElementById("scrollingDiv").appendChild(div);
-      });
-    })
+    // // Chức năng tạo content bên tay phải
+    // $.getJSON("./assets/data/data.json", (temoinsTitle) => {
+    //   temoinsTitle.forEach((temoin, index) => {
+    //     const div = document.createElement("div");
+    //     div.setAttribute("data-temoin", index + 1);
+    //     div.classList.add("item");
+    //     div.innerHTML = `
+    //   <h2 class="heading-2">
+    //     <p class="link">${temoin.title}</p>
+    //   </h2>
+    // `;
+    //     document.getElementById("scrollingDiv").appendChild(div);
+    //   });
+    // })
 
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
