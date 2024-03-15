@@ -3771,8 +3771,8 @@ margin-bottom: 22px;
   .select-box .options-container {
     background: #1c2028;
     color: #fff;
-
-
+    max-height: 0;
+  
     opacity: 0;
     /* border-radius: 15px; */
     overflow: auto;
