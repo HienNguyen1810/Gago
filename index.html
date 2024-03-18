@@ -549,15 +549,12 @@
                 if (newCenterItemId) {
                   for (let i = 1; i <= 11; i++) {
                     const temoinDiv = document.getElementById(`temoin-${i}`);
-                    if (window.innerWidth > 767)  {
+                    
                     setTimeout(() => {
                       temoinDiv.style.display =
                         i.toString() === newCenterItemId ? "block" : "none";
                     }, 170);
-                  }else{
-                    temoinDiv.style.display =
-                        i.toString() === newCenterItemId ? "block" : "none";
-                  }
+
                     
 
                     const colorMap = {
