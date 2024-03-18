@@ -554,6 +554,8 @@
                         i.toString() === newCenterItemId ? "block" : "none";
                     }, 200);
 
+                    
+
                     const colorMap = {
                       1: '#004aad',
                       2: '#7b0b00',
@@ -602,6 +604,37 @@
                       // Đặt thuộc tính background-color của phần tử
                       element.style.cssText = 'background: ' + color + '!important';
                     });
+                    const colorMap3 = {
+                      1: 'rgb(0, 55, 128)',
+                      2: 'rgb(107, 14, 5)',
+                      3: 'rgb(0, 66, 153)',
+                      4: 'rgb(203, 57, 52)',
+                      5: 'rgb(44, 72, 186)',
+                      6: 'rgb(113, 156, 78)',
+                      7: 'rgb(191, 155, 96)',
+                      8: 'rgb(181, 22, 28)',
+                      9: 'rgb(49, 141, 180)',
+                      10: 'rgb(80, 154, 230)',
+                      11: 'rgb(230, 149, 41)',
+                      default: 'red'
+                    };
+
+                    // Lặp qua tất cả các phần tử '.header-link'
+                    document.querySelectorAll('.texte-temoin').forEach(function (element) {
+                      // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
+                      const color = colorMap1[newCenterItemId] || colorMap1.default;
+
+                      // Đặt thuộc tính background-color của phần tử
+                      element.style.cssText = 'color: ' + color + '!important';
+                    });
+                      // Lặp qua tất cả các phần tử '.header-link'
+                      document.querySelectorAll('.titre-temoin').forEach(function (element) {
+                      // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
+                      const color = colorMap1[newCenterItemId] || colorMap1.default;
+
+                      // Đặt thuộc tính background-color của phần tử
+                      element.style.cssText = 'color: ' + color + '!important';
+                    });
 
                     if (window.innerWidth <= 479) {
                       // Chỉ thực hiện khi chiều rộng của màn hình là 479px hoặc ít hơn
@@ -635,17 +668,17 @@
                     }
                     // Đối tượng ánh xạ giữa newCenterItemId và màu sắc
                     const colorMap2 = {
-                      1: '#004aad',
-                      2: '#7b0b00',
-                      3: '#004aad',
-                      4: '#d1544f',
-                      5: '#253e9f',
-                      6: '#78a255',
-                      7: '#c2a16a',
-                      8: '#c41a21',
-                      9: '#42a3cb',
-                      10: '#5ba5f0',
-                      11: '#f9a22d',
+                      1: 'rgb(0, 55, 128)',
+                      2: 'rgb(107, 14, 5)',
+                      3: 'rgb(0, 66, 153)',
+                      4: 'rgb(203, 57, 52)',
+                      5: 'rgb(44, 72, 186)',
+                      6: 'rgb(113, 156, 78)',
+                      7: 'rgb(191, 155, 96)',
+                      8: 'rgb(181, 22, 28)',
+                      9: 'rgb(49, 141, 180)',
+                      10: 'rgb(80, 154, 230)',
+                      11: 'rgb(230, 149, 41)',
                       default: 'red'
                     };
 
@@ -655,6 +688,7 @@
                       const color = colorMap2[newCenterItemId] || colorMap2.default;
                       // Đặt thuộc tính cssText của phần tử
                       element.style.cssText = `background: ${color} !important`;
+                      
                     });
 
 
@@ -670,20 +704,18 @@
               const scrollHeight = container.scrollHeight;
               const clientHeight = container.clientHeight;
               if (windowWidth >= 992) {
-                if (scrollTop < itemHeight * 2.5 + 40) {
-                  const lastItem =
-                    container.children[container.children.length - 1];
-                  container.insertBefore(lastItem, container.firstChild);
-                  container.scrollTop += itemHeight;
-                } else if (
-                  scrollTop + clientHeight >=
-                  scrollHeight - itemHeight
-                ) {
-                  const firstItem = container.children[0];
-                  container.appendChild(firstItem);
-                  container.scrollTop -= itemHeight;
-                }
-              } else {
+                if (scrollTop < itemHeight * 2.5 +30) {
+        const lastItem = container.children[container.children.length - 1];
+        container.insertBefore(lastItem, container.firstChild);
+        
+        // Tính toán lại giá trị scrollTop để đảm bảo cuộn lên không bị đứng
+        container.scrollTop += lastItem.offsetHeight; // Sử dụng offsetHeight của phần tử cuối cùng
+    }else if (scrollTop + clientHeight >= scrollHeight - (itemHeight+25)) {
+        const firstItem = container.children[0];
+        container.appendChild(firstItem);
+        container.scrollTop += itemHeight; // Thay đổi dấu +
+    }
+}else {
                 if (scrollTop < itemHeight * 2) {
                   const lastItem =
                     container.children[container.children.length - 1];
@@ -737,7 +769,7 @@
               if (windowWidth > 992) {
                 e.deltaY = e.deltaY >= 0 ? 33.33333129882813 : -33.33333129882813;
                 linesToScroll = e.deltaY >= 0 ? 33.33333129882813 : -33.33333129882813;
-
+console.log(linesToScroll,"linesToScroll");
               } else {
                 linesToScroll = e.deltaY
               }

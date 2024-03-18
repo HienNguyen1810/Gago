@@ -6,7 +6,10 @@
     "image": "./assets/img/00 TERO.png",
     "title": "TERO",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/192723993/MASCOT-3D-DESIGN-TERO"
+    "link": "https://www.behance.net/gallery/192723993/MASCOT-3D-DESIGN-TERO",
+    "mainColor": "#004aad",
+    "itemColor": "rgb(0, 55, 128)"
+
   },
   {
     "id": "temoin-2",
@@ -15,7 +18,9 @@
     "image": "./assets/img/01 UNDERME.png",
     "title": "UNDERME",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/184295181/Mascot-Design-UNDERME"
+    "link": "https://www.behance.net/gallery/184295181/Mascot-Design-UNDERME",
+    "mainColor": "#7b0b00",
+    "itemColor": "rgb(107, 14, 5)"
   },
   {
     "id": "temoin-3",
@@ -24,7 +29,9 @@
     "image": "./assets/img/02 MOPY.png",
     "title": "MOPY",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY",
+    "mainColor": "#004aad",
+    "itemColor": "rgb(0, 66, 153)"
   },
   {
     "id": "temoin-4",
@@ -33,7 +40,9 @@
     "title": "CUPID",
     "image": "./assets/img/03 CUPID.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/185625807/Mascot-Design-CUPID"
+    "link": "https://www.behance.net/gallery/185625807/Mascot-Design-CUPID",
+    "mainColor": "#d1544f",
+    "itemColor": "rgb(203, 57, 52)"
   },
   {
     "id": "temoin-5",
@@ -42,7 +51,9 @@
     "title": "DREAM BABY",
     "image": "./assets/img/04 DREAM BABY.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/189081627/MASCOT-DESIGN-DREAM-BABY"
+    "link": "https://www.behance.net/gallery/189081627/MASCOT-DESIGN-DREAM-BABY",
+    "mainColor": "#253e9f",
+    "itemColor": "rgb(44, 72, 186)"
   },
   {
     "id": "temoin-6",
@@ -51,7 +62,9 @@
     "title": "TIBI",
     "image": "./assets/img/10 TIBI.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/187498461/MASCOT-DESIGN-TIBI"
+    "link": "https://www.behance.net/gallery/187498461/MASCOT-DESIGN-TIBI",
+    "mainColor": "#78a255",
+    "itemColor": "rgb(113, 156, 78)"
   },
   {
     "id": "temoin-7",
@@ -60,7 +73,9 @@
     "title": "RICE BABY",
     "image": "./assets/img/11 RICE BABY.gif",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/187349915/MASCOT-DESIGN-RICE-BABY"
+    "link": "https://www.behance.net/gallery/187349915/MASCOT-DESIGN-RICE-BABY",
+    "mainColor": "#c2a16a",
+    "itemColor": "rgb(191, 155, 96)"
   },
   {
     "id": "temoin-8",
@@ -69,7 +84,9 @@
     "title": "ANTA",
     "image": "./assets/img/ANTA.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/188005575/MASCOT-DESIGN-ANTA"
+    "link": "https://www.behance.net/gallery/188005575/MASCOT-DESIGN-ANTA",
+    "mainColor": "#c41a21",
+    "itemColor": "rgb(181, 22, 28)"
   },
   {
     "id": "temoin-9",
@@ -78,7 +95,9 @@
     "title": "SILVER TIGER & PEONY",
     "image": "./assets/img/13 SILVER TIGER & PEONY.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/190279123/MASCOT-DESIGN-SILVER-TIGER-PEONY"
+    "link": "https://www.behance.net/gallery/190279123/MASCOT-DESIGN-SILVER-TIGER-PEONY",
+    "mainColor": "#42a3cb",
+    "itemColor": "rgb(49, 141, 180)"
   },
   {
     "id": "temoin-10",
@@ -87,7 +106,9 @@
     "title": "GH CREATION",
     "image": "./assets/img/17 GH CREATION.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY"
+    "link": "https://www.behance.net/gallery/184298395/Mascot-Design-MOPY",
+    "mainColor": "#5ba5f0",
+    "itemColor": "rgb(80, 154, 230)"
   },
   {
     "id": "temoin-11",
@@ -96,6 +117,8 @@
     "title": "PIPPY",
     "image": "./assets/img/18 PIPPY.png",
     "content": "Lorem ipsum dolor sit amet",
-    "link": "https://www.behance.net/gallery/188584797/Sticker-Pack-for-PIPPY"
+    "link": "https://www.behance.net/gallery/188584797/Sticker-Pack-for-PIPPY",
+    "mainColor": "#f9a22d",
+    "itemColor": "rgb(230, 149, 41)"
   }
 ]
