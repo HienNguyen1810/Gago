@@ -619,6 +619,7 @@
                       default: 'red'
                     };
 
+                    if (window.innerWidth > 767)  {
                     // Lặp qua tất cả các phần tử '.header-link'
                     document.querySelectorAll('.texte-temoin').forEach(function (element) {
                       // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
@@ -635,7 +636,7 @@
                       // Đặt thuộc tính background-color của phần tử
                       element.style.cssText = 'color: ' + color + '!important';
                     });
-
+                  }
                     if (window.innerWidth <= 479) {
                       // Chỉ thực hiện khi chiều rộng của màn hình là 479px hoặc ít hơn
                       // Thêm mã JavaScript của bạn ở đây
