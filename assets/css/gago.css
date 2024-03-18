@@ -1029,6 +1029,11 @@ html {
   }
   
   @media screen and (max-width: 479px) {
+    .contact-social-list{
+    right: 26px !important;
+    bottom: 100px !important;
+    gap: 0px !important;
+    }
     .dropdown-item:hover{
       color: #333! important;
       background-color: floralwhite! important; 
