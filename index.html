@@ -31,6 +31,7 @@
   <link
     href="https://assets-global.website-files.com/657877dfbfc20916232573f6/65a94e0bc58f4e7f69ce6b6e_boecole-webkit.jpg"
     rel="apple-touch-icon" />
+  <script type="text/javascript" src="./assets/js/load-temoin.js"></script>
 </head>
 
 <body class="body">
@@ -430,7 +431,6 @@
         </div>
         <script>
           document.addEventListener("DOMContentLoaded", () => {
-
             let isInitItem = null;
             let isScrolling = false;
 
@@ -554,84 +554,30 @@
                       temoinDiv.style.display =
                         i.toString() === newCenterItemId ? "block" : "none";
                     }, 170);
-                  //   $.getJSON("./assets/data/data.json", (languageOptions) => {
-                  //   document.querySelectorAll('.side.droite').forEach(function (element) {
-                  //     // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                  //     const color = temoins[newCenterItemId - 1].mainColor;
-
-                  //     // Đặt thuộc tính background-color của phần tử
-                  //     element.style.cssText = 'background: ' + color + '!important';
-                  //   });
-                  // })
-
-                    const colorMap = {
-                      1: '#004aad',
-                      2: '#7b0b00',
-                      3: '#004aad',
-                      4: '#d1544f',
-                      5: '#253e9f',
-                      6: '#78a255',
-                      7: '#c2a16a',
-                      8: '#c41a21',
-                      9: '#42a3cb',
-                      10: '#5ba5f0',
-                      11: '#f9a22d',
-                      default: 'red'
-                    };
-
-                    // Lặp qua tất cả các phần tử '.side.droite'
                     document.querySelectorAll('.side.droite').forEach(function (element) {
                       // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                      const color = colorMap[newCenterItemId] || colorMap.default;
+                      const color = dataTemoin[newCenterItemId - 1].mainColor;
 
                       // Đặt thuộc tính background-color của phần tử
                       element.style.cssText = 'background: ' + color + '!important';
                     });
 
-
-                    const colorMap1 = {
-                      1: 'rgb(0, 55, 128)',
-                      2: 'rgb(107, 14, 5)',
-                      3: 'rgb(0, 66, 153)',
-                      4: 'rgb(203, 57, 52)',
-                      5: 'rgb(44, 72, 186)',
-                      6: 'rgb(113, 156, 78)',
-                      7: 'rgb(191, 155, 96)',
-                      8: 'rgb(181, 22, 28)',
-                      9: 'rgb(49, 141, 180)',
-                      10: 'rgb(80, 154, 230)',
-                      11: 'rgb(230, 149, 41)',
-                      default: 'red'
-                    };
-
+               
                     // Lặp qua tất cả các phần tử '.header-link'
                     document.querySelectorAll('.header-link').forEach(function (element) {
                       // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                      const color = colorMap1[newCenterItemId] || colorMap1.default;
+                      const color = dataTemoin[newCenterItemId - 1].itemColor;
 
                       // Đặt thuộc tính background-color của phần tử
                       element.style.cssText = 'background: ' + color + '!important';
                     });
-                    const colorMap3 = {
-                      1: 'rgb(0, 55, 128)',
-                      2: 'rgb(107, 14, 5)',
-                      3: 'rgb(0, 66, 153)',
-                      4: 'rgb(203, 57, 52)',
-                      5: 'rgb(44, 72, 186)',
-                      6: 'rgb(113, 156, 78)',
-                      7: 'rgb(191, 155, 96)',
-                      8: 'rgb(181, 22, 28)',
-                      9: 'rgb(49, 141, 180)',
-                      10: 'rgb(80, 154, 230)',
-                      11: 'rgb(230, 149, 41)',
-                      default: 'red'
-                    };
+                 
 
                     if (window.innerWidth > 767)  {
                     // Lặp qua tất cả các phần tử '.header-link'
                     document.querySelectorAll('.texte-temoin').forEach(function (element) {
                       // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                      const color = colorMap1[newCenterItemId] || colorMap1.default;
+                      const color = dataTemoin[newCenterItemId - 1].itemColor;
 
                       // Đặt thuộc tính background-color của phần tử
                       element.style.cssText = 'color: ' + color + '!important';
@@ -639,7 +585,7 @@
                       // Lặp qua tất cả các phần tử '.header-link'
                       document.querySelectorAll('.titre-temoin').forEach(function (element) {
                       // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                      const color = colorMap1[newCenterItemId] || colorMap1.default;
+                      const color = dataTemoin[newCenterItemId - 1].itemColor;
 
                       // Đặt thuộc tính background-color của phần tử
                       element.style.cssText = 'color: ' + color + '!important';
@@ -647,26 +593,11 @@
                   }
                     if (window.innerWidth <= 479) {
                       // Chỉ thực hiện khi chiều rộng của màn hình là 479px hoặc ít hơn
-                      // Thêm mã JavaScript của bạn ở đây
-                      const gradientMap = {
-                        1: 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5))',
-                        2: 'linear-gradient(to Top, rgb(123, 11, 0,1),rgb(255, 232, 230, 0.5))',
-                        3: 'linear-gradient(to Top, rgb(0, 74, 173,1),rgb(230, 241, 255, 0.5))',
-                        4: 'linear-gradient(to Top, rgb(209, 84, 79,1),rgb(250, 234, 234, 0.5))',
-                        5: 'linear-gradient(to Top, rgb(37, 62, 159,1),rgb(193, 203, 240, 0.5))',
-                        6: 'linear-gradient(to Top, rgb(120, 162, 85,1),rgb(229, 237, 222, 0.5))',
-                        7: 'linear-gradient(to Top, rgb(194, 161, 106,1),rgb(240, 232, 219, 0.5))',
-                        8: 'linear-gradient(to Top, rgb(196, 26, 33,1),rgb(252, 232, 233, 0.5))',
-                        9: 'linear-gradient(to Top, rgb(66, 163, 203,1),rgb(215, 235, 244, 0.5))',
-                        10: 'linear-gradient(to Top, rgb(91, 165, 240,1),rgb(208, 230, 251, 0.5))',
-                        11: 'linear-gradient(to Top, rgb(249, 162, 45,1),rgb(252, 221, 182, 0.5))',
-                        default: 'red'
-                      };
-
+              
                       // Lặp qua tất cả các phần tử '.bloc-text'
                       document.querySelectorAll('.bloc-text').forEach(function (element) {
                         // Lấy linear-gradient tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                        const gradient = gradientMap[newCenterItemId] || gradientMap.default;
+                        const gradient = dataTemoin[newCenterItemId - 1].itemColor;
 
                         // Đặt thuộc tính background của phần tử
                         element.style.cssText = 'background: ' + gradient + '!important';
@@ -676,25 +607,11 @@
 
                     }
                     // Đối tượng ánh xạ giữa newCenterItemId và màu sắc
-                    const colorMap2 = {
-                      1: 'rgb(0, 55, 128)',
-                      2: 'rgb(107, 14, 5)',
-                      3: 'rgb(0, 66, 153)',
-                      4: 'rgb(203, 57, 52)',
-                      5: 'rgb(44, 72, 186)',
-                      6: 'rgb(113, 156, 78)',
-                      7: 'rgb(191, 155, 96)',
-                      8: 'rgb(181, 22, 28)',
-                      9: 'rgb(49, 141, 180)',
-                      10: 'rgb(80, 154, 230)',
-                      11: 'rgb(230, 149, 41)',
-                      default: 'red'
-                    };
-
+              
                     // Lặp qua tất cả các phần tử '.contact-message'
                     document.querySelectorAll('.contact-message').forEach(function (element) {
                       // Lấy màu sắc từ đối tượng colorMap
-                      const color = colorMap2[newCenterItemId] || colorMap2.default;
+                      const color = dataTemoin[newCenterItemId - 1].itemColor;
                       // Đặt thuộc tính cssText của phần tử
                       element.style.cssText = `background: ${color} !important`;
                       
@@ -1039,7 +956,7 @@ console.log(linesToScroll,"linesToScroll");
         });
       }
     // Chức năng thay đổi ngôn ngữ
-      $.getJSON("./assets/data/dataLanguage.json", (languageOptions) => {
+
         let elements = {
           languageSelect: document.getElementById("languageSelect"),
           engLanguage: document.getElementById("engLanguage"),
@@ -1126,48 +1043,11 @@ console.log(linesToScroll,"linesToScroll");
 
       updateContent(languageSelect.textContent.toLowerCase());
     });
-
-
-      })
     
 
   
     // Chức năng tạo content bên tay trái
-    $.getJSON("./assets/data/data.json", (temoins) => {
-      const temoinContainer = document.getElementById("temoinContainer");
-      temoins.forEach((temoin, index) => {
-        const temoinDiv = document.createElement("div");
-        temoinDiv.id = temoin.id;
-        temoinDiv.className = temoin.class;
-        temoinDiv.innerHTML = `
-                <div class="bloc-temoin bac3">
-                    <img src="${temoin.image}" loading="lazy" sizes="100vw" class="image-2" />
-                    <div class="bloc-text">
-                        <div class="wrapper-btn-view-more">
-                            <div class="row">
-                                <div class="col-12 w-col-tiny-8 p-0" style="text-align: left;">
-                                    <h3 class="titre-temoin black">${temoin.title}</h3>
-                                    <div id="${temoin.idContent}" class="texte-temoin">${temoin.content}</div>
-                                </div>
-                                <div class="viewMore" style="text-align: right;">
-                                    <a target="_blank" href="${temoin.link}">
-                                        <button class="btn-view-more link-view-more">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.43 5.92993L20.5 11.9999L14.43 18.0699" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M3.5 12H20.33" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg> <span class="view-more-content">View more</span>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
 
-        temoinContainer.appendChild(temoinDiv);
-      })
-    });
     // // Chức năng tạo content bên tay phải
     // $.getJSON("./assets/data/data.json", (temoinsTitle) => {
     //   temoinsTitle.forEach((temoin, index) => {
