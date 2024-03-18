@@ -96,9 +96,9 @@
       "buttonView": "Xem thêm"
     },
     "downloadProposal": {
-      "downloadProposalText": "Tải xuống portfolio",
-      "vnProposalText": "Phiên bản tiếng việt",
-      "engProposalText": "Phiên bản tiếng anh"
+      "downloadProposalText": "Tải Xuống Portfolio",
+      "vnProposalText": "Phiên Bản Tiếng Việt",
+      "engProposalText": "Phiên Bản Tiếng Anh"
     }
   },
   "chinese": {
