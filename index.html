@@ -554,15 +554,11 @@
                       temoinDiv.style.display =
                         i.toString() === newCenterItemId ? "block" : "none";
                     }, 170);
-                  //   $.getJSON("./assets/data/data.json", (languageOptions) => {
-                  //   document.querySelectorAll('.side.droite').forEach(function (element) {
-                  //     // Lấy màu sắc tương ứng với newCenterItemId, hoặc 'red' nếu không có ánh xạ
-                  //     const color = temoins[newCenterItemId - 1].mainColor;
-
-                  //     // Đặt thuộc tính background-color của phần tử
-                  //     element.style.cssText = 'background: ' + color + '!important';
-                  //   });
-                  // })
+var data
+                    $.getJSON("./assets/data/data.json", (temoins) => {
+                  data = temoins
+                  })
+                  console.log(data);
 
                     const colorMap = {
                       1: '#004aad',
